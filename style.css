@@ -1,0 +1,87 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.kerla_name
+{   position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+.contact_box
+{
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    color: #000;
+    font-size: 20px;
+}
+.places
+{
+    position: absolute;
+    top: 8px;
+    left: 180px;
+    color: black;
+    font-size: 20px;
+}
+.blog
+{
+    position: absolute;
+    top: 8px ;
+    left: 270px;
+    color: black ;
+    font-size: 20px;
+}
+
+.err
+{
+    position: absolute;
+    top: 8px;
+    left: 350px;
+    color: black;
+    font-size: 20px;
+}
+.heading
+{
+    position: absolute;
+    right:100px;
+    left: 90px;
+    top: 45%; 
+    bottom: 40px;
+    font-size: 4rem;
+    color: aliceblue;
+    text-align: center;
+
+}  
+
+.chrms
+{
+border-radius: 50%;
+    position: absolute;
+    top: 450px;
+    left: 1100px;
+    height: 160px;
+
+    animation-name: frames;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes frames{
+    from {
+transform: rotate(0deg);
+    }
+to {
+    transform: rotate(360deg);
+}
+}
+
+
+.next
+{
+    width: 10%;
+    height: 20%;
+    color: yellow;
+}
+
